@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::post('/', function() {
     return '';
 });
+Route::get('about', function() {
+    return 'about';
+});
