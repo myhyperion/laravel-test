@@ -15,3 +15,7 @@ Route::get('/', function () {
     $user = \App\User::find(1);
     Mail::to($user->email)->send(new \App\Mail\WelcomeToLaravist($user));
 });
+
+Route::post('/', function() {
+    return '';
+});
