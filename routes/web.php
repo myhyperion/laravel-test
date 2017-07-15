@@ -20,5 +20,6 @@ Route::post('/', function() {
     return '';
 });
 Route::get('about', function() {
+    echo 'aa';
     return 'about';
 });
